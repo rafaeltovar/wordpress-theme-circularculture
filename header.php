@@ -57,7 +57,7 @@
 		</div>
 	</div>
 	<div id="menu-area" class="row">
-		<div class="large-10 columns">		
+		<div class="large-9 columns">		
 			<nav>
 				<section>
 					<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'menu_class' => 'left', 'container' => '', 'fallback_cb' => 'foundation_page_menu', 'walker' => new circularculture_navigation() ) ); ?>

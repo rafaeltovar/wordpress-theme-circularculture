@@ -69,7 +69,8 @@ header {
 		nav {
 			li { display: inline; 
 				border-left: $hr-border-width $hr-border-style $hr-border-color;
-				padding: 0px 10px 0px 10px;
+				border-bottom: 0px;
+				padding: 0px 10px 0px 12px;
 				text-transform: lowercase;
 				font-size: 110%;
 				
@@ -80,7 +81,6 @@ header {
 				border-left: 0px;
 				padding: 0px 10px 0px 0px;
 			}
-			
 		}
 	}
 }

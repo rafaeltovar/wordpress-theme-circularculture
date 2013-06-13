@@ -284,8 +284,6 @@ function circularculture_gallery_shortcode_js() {
 	});</script>";
 }
 
-//add_action('wp_footer', 'circularculture_js_init', 50);
-
 remove_shortcode('gallery');
 add_shortcode('gallery', 'circularculture_gallery_shortcode');
 

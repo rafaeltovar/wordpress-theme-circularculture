@@ -286,7 +286,7 @@ function circularculture_widgets() {
 			'id' => 'circularculture_sidebar_top_small',
 			'name' => __( 'Sidebar Top Small', 'circularculture' ),
 			'description' => __( 'This sidebar is located at right to header menu.', 'circularculture' ),
-			'before_widget' => '<div id="%1$s" class="widget %2$s large-2 columns">',
+			'before_widget' => '<div id="%1$s" class="widget %2$s large-3 columns">',
 			'after_widget' => '</div>',
 			'before_title' => '<h5>',
 			'after_title' => '</h5>',
