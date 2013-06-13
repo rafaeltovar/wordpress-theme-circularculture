@@ -1,0 +1,200 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: circularculture-wordpress-theme\n"
+"POT-Creation-Date: 2013-06-11 21:24+0100\n"
+"PO-Revision-Date: 2013-06-11 21:31+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:11
+msgid "Error 404"
+msgstr "Error 404"
+
+#: ../404.php:12
+msgid "Address not found :("
+msgstr "Direcci&oacute;n no encontrada"
+
+#: ../404.php:14
+msgid ""
+"The page you are looking for does not exist, has been deleted or changed "
+"direction.."
+msgstr ""
+"La p&aacute;gina que est&aacute;s buscando no existe, ha sido eliminada o ha "
+"cambiado de direcci&oacute;n."
+
+#: ../404.php:15
+#, php-format
+msgid "Return to <a href=\"%s\">main page</a>"
+msgstr "Vuelva a la <a href=\"%s\">p&aacute;gina principal</a>"
+
+#: ../archive-work.php:28 ../index.php:30
+msgid "No posts."
+msgstr "No hay entradas."
+
+#: ../archive-work.php:29
+msgid "Sorry about this, I couldn't seem to find what you were looking for. :("
+msgstr ""
+"Disculpe, no hemos podido encontrar nada de lo que usted est&aacute; "
+"buscando. :("
+
+#: ../archive.php:29
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archivo diario: %s"
+
+#: ../archive.php:31
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archivos mensual: %s"
+
+#: ../archive.php:33
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archivo anual: %s"
+
+#: ../archive.php:35
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Etiqueta: %s"
+
+#: ../archive.php:41
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Categor&iacute;a: %s"
+
+#: ../archive.php:47
+msgid "Latest entries"
+msgstr "&Uacute;ltimos art&iacute;culos"
+
+#: ../author-box.php:21
+msgid "About"
+msgstr "Sobre"
+
+#: ../comments.php:38
+msgid "Comment navigation"
+msgstr "Men&uacute; de comentarios"
+
+#: ../comments.php:39
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarios anteriores"
+
+#: ../comments.php:40
+msgid "Newer Comments &rarr;"
+msgstr "Comentarios siguientes &rarr;"
+
+#: ../comments.php:49
+msgid "Comments are closed."
+msgstr "Los comentarios est&aacute;n cerrados."
+
+#: ../content-work.php:26
+msgid "Description"
+msgstr "Descripción"
+
+#: ../content-work.php:33
+msgid "Technical details"
+msgstr "Detalles técnicos"
+
+#: ../content.php:17
+#, php-format
+msgid "Permalink to %s"
+msgstr "Enlace permanente a %s"
+
+#: ../content.php:21
+msgid "Continue Reading..."
+msgstr "Continuar leyendo..."
+
+#: ../content.php:27
+msgid "Written by"
+msgstr "Escrito por"
+
+#: ../content.php:27
+msgid "on"
+msgstr "el "
+
+#: ../functions.php:132
+msgid "Header Menu"
+msgstr "Men&uacute; de cabecera"
+
+#: ../functions.php:133
+msgid "Footer Menu"
+msgstr "Men&uacute; de pi&eacute; de p&aacute;gina"
+
+#: ../functions.php:256
+msgid "Sidebar Right"
+msgstr "Barra lateral derecha"
+
+#: ../functions.php:257
+msgid "This sidebar is located on the right-hand side of each page."
+msgstr ""
+
+#: ../functions.php:267
+msgid "Works Sidebar Right"
+msgstr ""
+
+#: ../functions.php:268
+msgid "This sidebar is located on the right-hand side of each page of works."
+msgstr ""
+
+#: ../functions.php:278
+msgid "Sidebar Top"
+msgstr ""
+
+#: ../functions.php:279
+msgid "This sidebar is located on the middle between menu and content."
+msgstr ""
+
+#: ../functions.php:289
+msgid "Sidebar Footer"
+msgstr ""
+
+#: ../functions.php:290
+msgid "This sidebar is located in column one of your theme footer."
+msgstr ""
+
+#: ../functions.php:409 ../header.php:44
+#, php-format
+msgid "Page %s"
+msgstr "Página %s"
+
+#: ../functions.php:446
+msgid "Widget to show works list"
+msgstr ""
+
+#: ../functions.php:453
+msgid "CircularCulture works"
+msgstr ""
+
+#: ../index.php:31
+msgid "Sorry about this, I couldn't seem to find what you were looking for."
+msgstr ""
+
+#: ../sidebar-works.php:18 ../sidebar.php:18
+msgid "No widgets found."
+msgstr ""
+
+#: ../sidebar-works.php:19 ../sidebar.php:19
+#, php-format
+msgid ""
+"It seems you don't have any widgets in your sidebar! Would you like to %s "
+"now?"
+msgstr ""
+
+#: ../inc/comment_default_template.php:11
+msgid "Your comment is awaiting moderation."
+msgstr "Su comentario est&aacute; esperando aprobaci&oacute;n."
+
+#: ../inc/comment_default_template.php:19
+msgid "Reply"
+msgstr "Responder"
+
+#: ../inc/comment_pingback_template.php:3
+msgid "Pingback:"
+msgstr ""

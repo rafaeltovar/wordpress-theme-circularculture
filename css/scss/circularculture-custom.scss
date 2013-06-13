@@ -1,0 +1,299 @@
+//@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700);
+
+@import url('fonts.css');
+
+/* -----------------------------------------
+   Variables
+----------------------------------------- */
+// $header-bg: #111;
+
+/* -----------------------------------------
+   General
+----------------------------------------- */
+
+html { background-color: $body-bg; }
+
+body, p { font-family: 'Roboto Slab', serif; font-weight: 300; }
+
+h1,h2,h3,h4,h5,h6 {font-family: 'GoodPro-CondLight', sans-serif;}
+h1,h2,h3,h4,h5,h6,a:link {font-weight:300;}
+
+/* -----------------------------------------
+   Icons
+----------------------------------------- */
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline;
+  width: auto;
+  height: auto;
+  vertical-align: baseline;
+  background-image: none !important;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
+}
+/* -----------------------------------------
+   Header
+----------------------------------------- */
+
+header {
+	margin-bottom: 40px;
+	.wrap { 
+		background-color: $hr-border-color; //$topbar-bg;		 
+	
+		-webkit-box-shadow: 0 0px 10px $topbar-bg;
+		-moz-box-shadow: 0 0px 10px $topbar-bg;
+		box-shadow: 0 0px 10px $topbar-bg;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+		padding: 10px 0px;
+		text-align: center;
+	} 
+	
+	#menu-area {
+		margin-top: 40px;
+		
+		nav {
+			li { display: inline; 
+				border-left: $hr-border-width $hr-border-style $hr-border-color;
+				padding: 0px 10px 0px 10px;
+				text-transform: lowercase;
+				font-size: 110%;
+				
+				&.current-menu-item a { font-weight: 400;}
+			}
+			
+			li:first-child {
+				border-left: 0px;
+				padding: 0px 10px 0px 0px;
+			}
+			
+		}
+	}
+}
+
+/* -----------------------------------------
+   Search
+----------------------------------------- */
+
+.search {
+	li { 
+		list-style: none;
+		margin-bottom: 10px; 
+		
+		h2 {
+			padding: 0px;
+			margin: 0px;
+		} 
+		
+	}
+}
+
+/* -----------------------------------------
+   Grid
+----------------------------------------- */
+.grid {
+	li { margin-bottom: 10px; 
+		.work-title {
+			img {
+				/*	-webkit-box-shadow: 0 0px 4px $topbar-bg;
+				-moz-box-shadow: 0 0px 4px $topbar-bg;
+				box-shadow: 0 0px 4px $topbar-bg;*/
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				border-radius: 3px;		
+			}
+			
+			h4 { 
+				margin-top: -10px; 
+				margin-bottom: -3px; 
+			}
+		}
+		
+		.work-description {
+			p { font-size: 80%; }
+		}
+	}
+}
+
+/* -----------------------------------------
+   Article
+----------------------------------------- */
+
+article {
+	&.post, &.page, .wdescription { 
+		p { text-align: justify; }
+		ul, ol { list-style-position:inside; }
+	}
+	
+	&.work-small {
+		//border-bottom: $hr-border-width $hr-border-style $hr-border-color;
+		
+		header {
+			margin-bottom: 0px;
+			img {
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				border-radius: 3px;		
+			}
+		}
+		
+		section { 
+			padding: 3px;
+			
+			h4 { 
+				margin-top: -5px; 
+				margin-bottom: 0px; 
+			}
+			
+			p { 
+				font-size: 80%;
+				text-align: justify; 
+			}
+		}
+		
+	}
+	
+	&.work {
+		p { text-align: justify; }
+	
+		.wdescription {
+			border-right: $hr-border-width $hr-border-style $hr-border-color;
+		}
+	}
+	
+	&.comment {
+		header { @extend .shadow; }
+	}
+	
+	header { 
+		margin-bottom: 20px;
+		h1, h2 { 
+			// @extend .shadow; 
+		}
+	}
+	
+	.meta {
+		p {
+			font-family: 'GoodPro-CondLight', sans-serif;
+			font-weight: 300px;
+		}
+	}
+
+	
+	.wp-caption .wp-caption-text { 
+		font-size: 65%; 
+		text-align: right; 
+		padding-right: 9px;
+	}
+	
+	.wp-caption.aligncenter .wp-caption-text { padding-right: 0px; }
+}
+
+/* -----------------------------------------
+   Gallery styles
+----------------------------------------- */
+.gallery {
+	.gallery-content {
+		p { font-size: 80%; }
+	}
+}
+
+/* -----------------------------------------
+   Widgets styles
+----------------------------------------- */
+.widget {
+	h4 { 
+		text-transform: lowercase;
+		padding-bottom: 10px; 
+		border-bottom: $hr-border-width $hr-border-style $hr-border-color;
+	}
+	ul { 
+		list-style: none; 
+		li { border-bottom: $hr-border-width dotted $hr-border-color; }
+		&.works-list {
+			li.active a {font-weight: 400;}
+		}
+	}
+	
+}
+
+/* -----------------------------------------
+   Works widget styles
+----------------------------------------- */
+
+
+/* -----------------------------------------
+   Footer
+----------------------------------------- */
+#footer {
+	padding-top: 15px; 
+	font-size: 90%;
+	ul { list-style: none; 
+		li { border: 0px; }
+	}
+	
+}
+
+@media only screen and (max-width: 769px) {
+	#footer {
+		text-align: center;
+		li { 
+			display: inline; 
+			border-left: $hr-border-width $hr-border-style $hr-border-color;
+			padding: 0px 5px 0px 7px;
+		}
+	
+		li:first-child {
+			border-left: 0px;
+			padding: 0px 5px 0px 0px;
+		}
+	}
+}
+
+/* -----------------------------------------
+   Plugins
+----------------------------------------- */
+.sociable {
+	margin-top: 5px;
+	li { margin-bottom: 0px; }
+}
+
+
+.widget_wp_related_posts {
+	ul { list-style: none;
+		li {
+			padding-bottom: 3px;
+			border-bottom: $hr-border-width $hr-border-style $hr-border-color;
+		}
+		
+	}
+}
+
+.shadow { text-shadow: 0.15em 0.15em 0.07em #bbb; }
+
+// Magnific-popup (gallery)
+button.mfp-close, button.mfp-arrow {
+	border: 0px;
+	-moz-box-shadow:0 0 0 rgba(255,255,255,0.5) inset;
+	-webkit-box-shadow: 0 0 0 rgba(255,255,255,0.5) inset;
+	box-shadow: 0 0px 0 rgba(255,255,255,0.5) inset;
+}
+
+button.mfp-close:hover, button.mfp-arrow:hover {
+	background-color: transparent;
+}
+.mfp-title { font-size: 80%; padding-left: 2px;}

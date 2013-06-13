@@ -1,0 +1,27 @@
+/*
+Theme Name: Circular Culture Style
+Theme URI: http://www.circularculture.com
+Author: Rafael Tovar
+Author URI: http://www.rafaeltovar.info
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: circularculture
+Description: Responsive theme for El Enano Rabioso magazine based on Drew Morris, Foundation for WordPress, a Responsive Starter Theme.
+Tags: two-columns
+*
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/********************************************************
+
+Comfortable with SASS?  Check out the /css/scss folder where the circularculture.scss file is the master complier
+
+////////   IMPORTANT!  Make custom edits/changes in the css/scss/circularculture-custom.less file
+////////   to safely retain the ability to update the less files with future versions
+
+## sass --watch css/scss/circularculture.scss:css/circularculture.min.css --style compressed
+
+-------------------------------------------------- */
