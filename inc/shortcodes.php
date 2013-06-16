@@ -219,7 +219,8 @@ function circularculture_gallery_shortcode($attr) {
     /* ------------------------------- *
      * FIX TO CIRCULAR CULTURE BLOG MU
      * ------------------------------- */
-     switch_to_blog(1);
+     if(class_exists('network_shared_media')) // Si plugin 'network share media' está activo
+     	switch_to_blog(1);
      // END FIX
      
     $images = array();
@@ -259,7 +260,8 @@ function circularculture_gallery_shortcode($attr) {
 	/* ------------------------------- *
      * FIX TO CIRCULAR CULTURE BLOG MU
      * ------------------------------- */
-    restore_current_blog();
+    if(class_exists('network_shared_media')) // Si plugin 'network share media' está activo
+    	restore_current_blog();
      // END FIX
 
 	return $output;
