@@ -202,7 +202,7 @@ function circularculture_gallery_shortcode($attr) {
 	//echo $GLOBALS['current_blog']->blog_id;
 	
 	$defaults = array(
-    	'columns' => 5,
+    	'columns' => 3,
         'size' => 'circularculture-home',
         'link' => 'file',
         'ids' => '',

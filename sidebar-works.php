@@ -1,15 +1,3 @@
-<?php
-/**
- * Sidebar
- *
- * Content for our sidebar, provides prompt for logged in users to create widgets
- *
- * @package WordPress
- * @subpackage Foundation, for WordPress
- * @since Foundation, for WordPress 4.0
- */
-?>
-
 <!-- Sidebar -->
 <aside class="large-3 columns sidebar">
 

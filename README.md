@@ -22,20 +22,8 @@ Features you'll love:
 + English & Spanish
 + MU
 
-## Custom type & Custom Fields
-
-"Circular Culture theme" need a custom type called "work" for projects with two custom fields.
-
-Custom fields slugs:
-
-* 'wdescription' -> WYSYWIG field for work description
-* 'wtdetails' -> WYSYWIG field for work technical details
-
-This Custom type and customs fields was created with [Types - Custom Fields and Custom Post Types Management for Wordpress](http://wordpress.org/plugins/types/).
-
 ## Plugins
 
-+ [Types - Custom Fields and Custom Post Types Management for Wordpress](http://wordpress.org/plugins/types/)
 + [Sociable](http://wordpress.org/plugins/sociable/) (Optional)
 + [Multisite Language Switcher](http://wordpress.org/plugins/multisite-language-switcher/) (Optional) (Only for MU installation and multilingüe)
 + [Network Shared Media](http://wordpress.org/extend/plugins/network-shared-media/) (Optional) (Only for MU and if you needed)

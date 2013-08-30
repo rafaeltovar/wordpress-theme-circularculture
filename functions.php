@@ -281,6 +281,17 @@ function circularculture_widgets() {
 			'after_title' => '</h4>',
 		) );
 		
+	// Sidebar Right artists
+	register_sidebar( array(
+			'id' => 'circularculture_sidebar_right_artists',
+			'name' => __( 'Artists Sidebar Right', 'circularculture' ),
+			'description' => __( 'This sidebar is located on the right-hand side of each page of artists.', 'circularculture' ),
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget' => '</div>',
+			'before_title' => '<h4>',
+			'after_title' => '</h4>',
+		) );
+		
 	// Sidebar Top Small
 	register_sidebar( array(
 			'id' => 'circularculture_sidebar_top_small',
@@ -469,6 +480,16 @@ if (file_exists($circularculture_shortcodes)) {
 }
 
 /**
+ * Custom posts types
+ */
+
+$circularculture_poststypes = trailingslashit( get_template_directory() ) . 'inc/poststypes.php';
+
+if (file_exists($circularculture_poststypes)) {
+	require($circularculture_poststypes);
+}
+ 
+/**
  * Last entry widget
  *
  * Widget to show work's list
@@ -544,6 +565,5 @@ class Circularculture_Works_Widget extends WP_Widget {
 	    include(get_template_directory().'/inc/cc_works_widget_control_template.php');
     }
 	
-} 
-
+}
 ?>
