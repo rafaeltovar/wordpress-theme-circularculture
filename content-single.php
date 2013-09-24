@@ -32,7 +32,7 @@
 		<div class="meta panel radius">
 			<p>
 				<i class="icon-info-sign"></i> <?php _e('Written by', 'circularculture'); ?> <?php the_author_link(); ?> <?php _e('on', 'circularculture'); ?> <?php the_time(get_option('date_format')); ?>
-			 <? if ( comments_open() ) : ?>
+			 <? if (comments_open()) : ?>
 			 | <a href="<?php the_permalink(); ?>#comments"><i class="icon-comments-alt"></i> <?php echo get_comments_number(); ?></a>
 			 <?php endif; ?>
 			 <?php the_tags('<br/><i class="icon-tags"></i> <span class="radius secondary label">','</span> <span class="radius secondary label">','</span>'); ?>

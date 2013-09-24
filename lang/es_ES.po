@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: circularculture-wordpress-theme\n"
-"POT-Creation-Date: 2013-06-11 21:24+0100\n"
-"PO-Revision-Date: 2013-06-11 21:31+0100\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2013-08-31 17:23+0100\n"
+"PO-Revision-Date: 2013-08-31 17:26+0100\n"
+"Last-Translator: Rafael Tovar <hola@rafaeltovar.info>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,15 +14,15 @@ msgstr ""
 "X-Poedit-SearchPath-0: ..\n"
 "X-Poedit-SearchPath-1: ..\n"
 
-#: ../404.php:11
+#: ../404.php:8
 msgid "Error 404"
 msgstr "Error 404"
 
-#: ../404.php:12
+#: ../404.php:9
 msgid "Address not found :("
 msgstr "Direcci&oacute;n no encontrada"
 
-#: ../404.php:14
+#: ../404.php:11
 msgid ""
 "The page you are looking for does not exist, has been deleted or changed "
 "direction.."
@@ -30,49 +30,58 @@ msgstr ""
 "La p&aacute;gina que est&aacute;s buscando no existe, ha sido eliminada o ha "
 "cambiado de direcci&oacute;n."
 
-#: ../404.php:15
+#: ../404.php:12
 #, php-format
 msgid "Return to <a href=\"%s\">main page</a>"
 msgstr "Vuelva a la <a href=\"%s\">p&aacute;gina principal</a>"
 
-#: ../archive-work.php:28 ../index.php:30
+#: ../archive-old.php:29 ../archive.php:17
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archivo diario: %s"
+
+#: ../archive-old.php:31 ../archive.php:19
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archivos mensual: %s"
+
+#: ../archive-old.php:33 ../archive.php:21
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archivo anual: %s"
+
+#: ../archive-old.php:35
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Etiqueta: %s"
+
+#: ../archive-old.php:41
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Categor&iacute;a: %s"
+
+#: ../archive-old.php:47
+msgid "Latest entries"
+msgstr "&Uacute;ltimos art&iacute;culos"
+
+#: ../archive-work.php:28 ../index.php:30 ../templates/artists-page.php:34
 msgid "No posts."
 msgstr "No hay entradas."
 
-#: ../archive-work.php:29
+#: ../archive-work.php:29 ../templates/artists-page.php:35
 msgid "Sorry about this, I couldn't seem to find what you were looking for. :("
 msgstr ""
 "Disculpe, no hemos podido encontrar nada de lo que usted est&aacute; "
 "buscando. :("
 
-#: ../archive.php:29
+#: ../archive.php:23 ../archive.php:29
 #, php-format
-msgid "Daily Archives: %s"
-msgstr "Archivo diario: %s"
-
-#: ../archive.php:31
-#, php-format
-msgid "Monthly Archives: %s"
-msgstr "Archivos mensual: %s"
-
-#: ../archive.php:33
-#, php-format
-msgid "Yearly Archives: %s"
-msgstr "Archivo anual: %s"
+msgid "%s"
+msgstr ""
 
 #: ../archive.php:35
-#, php-format
-msgid "Tag Archives: %s"
-msgstr "Etiqueta: %s"
-
-#: ../archive.php:41
-#, php-format
-msgid "Category Archives: %s"
-msgstr "Categor&iacute;a: %s"
-
-#: ../archive.php:47
-msgid "Latest entries"
-msgstr "&Uacute;ltimos art&iacute;culos"
+msgid "Hemeroteca"
+msgstr ""
 
 #: ../author-box.php:21
 msgid "About"
@@ -94,81 +103,98 @@ msgstr "Comentarios siguientes &rarr;"
 msgid "Comments are closed."
 msgstr "Los comentarios est&aacute;n cerrados."
 
-#: ../content-work.php:26
+#: ../content-single.php:34 ../content.php:22
+msgid "Written by"
+msgstr "Escrito por"
+
+#: ../content-single.php:34 ../content.php:22
+msgid "on"
+msgstr "el "
+
+#: ../content-work.php:22 ../inc/poststypes.php:33
 msgid "Description"
 msgstr "Descripción"
 
-#: ../content-work.php:33
+#: ../content-work.php:29 ../inc/poststypes.php:34
 msgid "Technical details"
 msgstr "Detalles técnicos"
 
-#: ../content.php:17
+#: ../content.php:12
 #, php-format
 msgid "Permalink to %s"
 msgstr "Enlace permanente a %s"
 
-#: ../content.php:21
+#: ../content.php:16
 msgid "Continue Reading..."
 msgstr "Continuar leyendo..."
 
-#: ../content.php:27
-msgid "Written by"
-msgstr "Escrito por"
-
-#: ../content.php:27
-msgid "on"
-msgstr "el "
-
-#: ../functions.php:132
+#: ../functions.php:147
 msgid "Header Menu"
 msgstr "Men&uacute; de cabecera"
 
-#: ../functions.php:133
+#: ../functions.php:148
 msgid "Footer Menu"
 msgstr "Men&uacute; de pi&eacute; de p&aacute;gina"
 
-#: ../functions.php:256
+#: ../functions.php:265
 msgid "Sidebar Right"
 msgstr "Barra lateral derecha"
 
-#: ../functions.php:257
+#: ../functions.php:266
 msgid "This sidebar is located on the right-hand side of each page."
 msgstr ""
 
-#: ../functions.php:267
+#: ../functions.php:276
 msgid "Works Sidebar Right"
 msgstr ""
 
-#: ../functions.php:268
+#: ../functions.php:277
 msgid "This sidebar is located on the right-hand side of each page of works."
 msgstr ""
 
-#: ../functions.php:278
+#: ../functions.php:287
+#, fuzzy
+msgid "Artists Sidebar Right"
+msgstr "Barra lateral derecha"
+
+#: ../functions.php:288
+msgid "This sidebar is located on the right-hand side of each page of artists."
+msgstr ""
+
+#: ../functions.php:298
+msgid "Sidebar Top Small"
+msgstr ""
+
+#: ../functions.php:299
+msgid "This sidebar is located at right to header menu."
+msgstr ""
+
+#: ../functions.php:309
 msgid "Sidebar Top"
 msgstr ""
 
-#: ../functions.php:279
+#: ../functions.php:310
 msgid "This sidebar is located on the middle between menu and content."
 msgstr ""
 
-#: ../functions.php:289
+#: ../functions.php:320
 msgid "Sidebar Footer"
 msgstr ""
 
-#: ../functions.php:290
+#: ../functions.php:321
 msgid "This sidebar is located in column one of your theme footer."
 msgstr ""
 
-#: ../functions.php:409 ../header.php:44
+#: ../functions.php:464 ../header copy.php:44 ../header.php:44
 #, php-format
 msgid "Page %s"
 msgstr "Página %s"
 
-#: ../functions.php:446
+#: ../functions.php:511
 msgid "Widget to show works list"
 msgstr ""
 
-#: ../functions.php:453
+#: ../functions.php:518
 msgid "CircularCulture works"
 msgstr ""
 
@@ -176,11 +202,26 @@ msgstr ""
 msgid "Sorry about this, I couldn't seem to find what you were looking for."
 msgstr ""
 
-#: ../sidebar-works.php:18 ../sidebar.php:18
+#: ../search.php:10
+#, fuzzy, php-format
+msgid "Search: %s"
+msgstr "Archivo anual: %s"
+
+#: ../search.php:27
+msgid "No se han encontrado resultados"
+msgstr ""
+
+#: ../search.php:28
+msgid ""
+"No se han encontrado resultados con su b&uacute;squeda, pruebe con otro "
+"t&eacute;rmino."
+msgstr ""
+
+#: ../sidebar-works.php:6 ../sidebar.php:14 ../templates/artists-page.php:46
 msgid "No widgets found."
 msgstr ""
 
-#: ../sidebar-works.php:19 ../sidebar.php:19
+#: ../sidebar-works.php:7 ../sidebar.php:15 ../templates/artists-page.php:47
 #, php-format
 msgid ""
 "It seems you don't have any widgets in your sidebar! Would you like to %s "
@@ -198,3 +239,20 @@ msgstr "Responder"
 #: ../inc/comment_pingback_template.php:3
 msgid "Pingback:"
 msgstr ""
+
+#: ../inc/poststypes.php:12
+msgid "Works"
+msgstr "Proyectos"
+
+#: ../inc/poststypes.php:13
+msgid "Work"
+msgstr "Proyecto"
+
+#: ../inc/poststypes.php:30
+msgid "Work details"
+msgstr "Detalles"
+
+#: ../inc/poststypes.php:73
+#, fuzzy
+msgid "Section"
+msgstr "Descripción"

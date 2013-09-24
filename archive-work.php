@@ -4,7 +4,8 @@
     <div class="large-9 columns" role="main">
     <?php
  	$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
- 	$paged = (get_query_var('page')) ? get_query_var('page') : 1;
+ 	if($paged==1)
+ 		$paged = (get_query_var('page')) ? get_query_var('page') : 1;
 	
 	$args = array(
 	    'post_type' => 'work', 

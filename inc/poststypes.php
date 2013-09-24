@@ -42,7 +42,7 @@ function circularculture_render_work_details_metabox() {
         	echo "<h2>".$item_name."</h2>";
         	
         	//Create The Editor	
-        	$editor_setting = array('media_buttons' => false);
+        	$editor_setting = array('wpautop' => true, 'media_buttons' => false);
         	$content = get_post_meta($post->ID, $item_id, true);
         	wp_editor($content, $item_id, $editor_setting);
 
@@ -58,7 +58,7 @@ function circularculture_save_work_details_metabox() {
 	
 	foreach($circularculture_work_details_metabox_items as $item_id => $item_name) {
      	if(isset($_REQUEST[$item_id])) {
-        	update_post_meta($_REQUEST['post_ID'], $item_id, $_REQUEST[$item_id]);
+        	update_post_meta($_REQUEST['post_ID'], $item_id, wpautop($_REQUEST[$item_id]));
         }
      }          
 }
